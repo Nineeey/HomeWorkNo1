@@ -1,0 +1,30 @@
+import java.io.*;
+
+Class Calculate
+{
+  int a, b, c;
+  void inputdata () throws IOException
+  {
+    InputStreamRead.ins = new.InputstreamReader (System.in);
+    BufferedReader.as = new.BufferedReader (ins);
+    System.out.println ("Enter value of A and B");
+    a = Integer.parseInt (as.readLine (l));
+    b = Integer.parseInt (as.readLine (l));
+  }
+  void calculate
+  {
+    c = a + b;
+    d = a - b;
+  }
+  void outputdata ()
+  {
+    System.outprintln ("Sum = " + c);
+    System.outprintln ("Different = " + d);
+  }
+  void main () throws IOExecption
+  {
+    inputdata ();
+    calculate ();
+    outputata ();
+  }
+}
